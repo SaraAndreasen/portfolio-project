@@ -71,3 +71,43 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 55px !important;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+  h3 {
+    font-size: 30px !important;
+  }
+  .btn-primary {
+    background-color: #6c63ff !important;
+    border-color: #6c63ff !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn-primary {
+    background: var(--primary-color) !important;
+    box-shadow: var(--box-shadow) !important;
+    color: white !important;
+    border-radius: 4px !important;
+    margin: 20px !important;
+    text-decoration: none !important;
+    padding: 20px 15px !important;
+    border-color: #6c63ff !important;
+  }
+  .about-paragraphs {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-paragraphs {
+    max-width: 60%;
+    margin-bottom: 50px;
+  }
+}
